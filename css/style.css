@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 auto;
+  min-width: 1300px;
+  max-width: 1440px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+
+.header{
+  /* width: 140px; */
+}
+.header-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+.link-end {
+  text-transform: capitalize;
+  background: #ff7500;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.link-end:hover {
+  background:#ff9539;
+}
+.link-end:active {
+  background-color: #ff7500;
+  opacity: 0.8;
+}
+.one-word{
+  margin: 0;
+  border-bottom: 3px solid #FF7500;
+}
+.header-link:hover{
+  color: #ff7500;
+  transition: 0.5s ease;
+}
+.header-link:active {
+ color: #f79e51;
+ opacity: 0.5;
+}
+.link-end:hover{
+  color: #ffffff;
+}
+
+.logo:hover{
+  color: #ff7500;
+  opacity: 0.8;
+}
+.logo:active{
+  color: #ff7500;
+  opacity: 0.5;
+}
+.main-section {
+  position: relative;
+  background: #252420;
+  width: 100%;
+  height: 488px;
+}
+.main-item {
+  padding-top: 80px;
+  padding-left: 170px;
+}
+.main-list{
+  list-style: none;
+  color: #ffffff;
+}
+.absolute {
+  position: absolute;
+  left: 766px;
+  top: 50px;
+}
+.line {
+  margin: 0;
+  border: 2px solid #FF7500;
+  width: 92px;
+  background-color: #FF7500;
+}
+.main-text {
+  width: 339px;
+  height: 96px;
+  font-weight: 400;
+}
+.main-list-p {
+  width: 357px;
+  height: 96px;
+  font-weight: 300;
+}
+.button {
+  background: #ff7500;
+  border-style: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.button:hover {
+  background-color:rgba(255, 100, 0, 4);
+  color: #fffccc;
+}
+.button:active {
+  background-color: #b35809;
+}
+/* end of main-section */
+.lainer {
+  width: 80px;
+  border: 2px solid #ff7500;
+  margin: 0;
+  margin-top: 210px;
+  margin-left: 170px;
+}
+.section-text {
+  margin-left: 170px; 
+  width: 200px;
+  display: inline-block;
+  font-weight: 600;
+}
+.section-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-item {
+  list-style: none;
+  margin-bottom: 330px;
+}
+.section-p { 
+  width: 300px;
+  font-weight: 450;
+}
+/* section of and */
+.babby-books { 
+  position: relative;
+  background: #252420;
+  width: 1100px;
+  margin-left: 170px;
+  margin-bottom: 227px;
+  border-radius: 12px;
+}
+.books-text {
+  color: #ffffff;
+  font-weight: 500;
+  width: 373px;
+  padding-left: 64px;
+  padding-top: 64px;
+}
+.books-p {
+  color: #ffffff;
+  width: 430px;
+  font-weight: 100;
+  padding-left: 64px;
+}
+.books-span {
+  color: #ff7500;
+}
+.buton {
+  border-style: none;
+  background-color: #ff7500;
+  padding: 10px; 
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 64px;
+  margin-bottom: 64px;
+}
+.buton:hover {
+  background-color:rgba(255, 100, 0, 1);
+  color: #fffccc;
+}
+.buton:active {
+  background-color: #b35809;
+}
+.img-books {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  /* left: 700px; */
+  top: -90px;
+  right: 100px;  
+}
+/* end of baby */
+.footer {
+  width: auto;
+  height: 507px;
+  background: #f8f8f8;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 1100px;
+  padding: 0;
+  padding-top: 50px;
+  margin-left: 170px;
+  margin-bottom: 51px;
+}
+.footer-img{
+  text-decoration: none;  
+}
+.foter-line {
+  width: 1100px;
+  height:3px;
+  margin-bottom: 64px;
+  background-color:#25242080 ;
+}
+.foter-bottom-link {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1100px;
+  min-width: 1100px;
+  transform: translateX(90px);
+}
+.ol-list {
+  list-style-type: none;
+  text-decoration: none;
+}
+.ol-item a {
+  text-decoration: none;
+  color: #252420;
+  line-height: 37px;                   
+  font-weight: 500;
+}
+.ol-item a:hover{
+  color: #FF7500;
+  transition: 0.5S ease;
+}
+.ol-item a:active{
+  color: #FF7500;
+  transition: 0.5S ease;
+  opacity: 0.5;
+}
+.logo-tg {
+  padding-left: 7px;
+}
